@@ -5,6 +5,7 @@ Test Setup    Ouvrir Le Naviateur Et Accéder A L'Application
 Test Template    Un Message D'Erreur Doit Etre Vsible Après Une Connexion Incorrecte
 *** Test Cases ***
 
+
 #cas de test                                                    #nom d'utilisateur                    #mot de passe
 Test Utilisateur Valide Mot De Passe Non Valide                  robot                                    qwert
 Test Utilisateur Non Valide Mot De Passe Valide                  qwert                                    robot
@@ -27,3 +28,4 @@ Un Message D'Erreur Doit Etre Vsible Après Une Connexion Incorrecte
 
 Vérifier Que Le Message D'Erreur Est Visible
     Wait Until Element Is Visible    ${ZONE ERREUR} 
+
