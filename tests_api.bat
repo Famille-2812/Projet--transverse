@@ -9,6 +9,6 @@ rem Affiche ce message avant d'exécuter les tests API
 
 cd tests_api
 
-robot *.robot
+python -m robot *.robot
 
 rem Lance tous les tests Robot Framework dans le dossier tests_api
