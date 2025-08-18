@@ -1,0 +1,3 @@
+@echo off
+echo Aucun test IHM défini, on continue...
+exit /b 0
